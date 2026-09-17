@@ -50,7 +50,7 @@ def game_loop():
         pg.time.Clock().tick(fps)
 
         if y > 480 or y < 20 or g_o:
-            with open ('D:/Flappy ball/maain/score.txt','w') as f:
+            with open ('D:/Flappy ball/main/score.txt','w') as f:
                 f.write(str(hiscore))
            
        
