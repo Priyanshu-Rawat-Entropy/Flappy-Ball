@@ -43,14 +43,14 @@ def game_loop():
     pipe_frequency = 1500  
     last_pipe = pg.time.get_ticks()
   
-    with open ('D:/projets/flappy_ball/score.txt','r') as f:
+    with open ('D:/Flappy ball/main/score.txt','r') as f:
         hiscore=f.read()
 
     while not game_over:
         pg.time.Clock().tick(fps)
 
         if y > 480 or y < 20 or g_o:
-            with open ('D:/projets/flappy_ball/score.txt','w') as f:
+            with open ('D:/Flappy ball/main/score.txt','w') as f:
                 f.write(str(hiscore))
            
        
