@@ -43,7 +43,7 @@ def game_loop():
     pipe_frequency = 1500  
     last_pipe = pg.time.get_ticks()
   
-    with open ('D:/projets/flappy_ball/score.txt','r') as f:
+    with open ('D:/Flappy ball/main/score.txt','r') as f:
         hiscore=f.read()
 
     while not game_over:
