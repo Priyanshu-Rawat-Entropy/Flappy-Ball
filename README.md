@@ -124,5 +124,11 @@ Run the game:
 ```bash
 python main.py
 ```
+### ⚠️ Important Note
+
+The `score.txt` file path may need to be changed according to your local directory structure.
+
+- **Line 46:** Update the `score.txt` path.
+- **Line 53:** Update the `score.txt` path.
 
 > Make sure the `score.txt` file path in the code is correctly configured for your system.
